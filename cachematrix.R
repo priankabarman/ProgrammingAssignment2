@@ -42,3 +42,10 @@ cacheSolve <- function(x, ...) {
 }
 
 
+# I used this matrix to check :: 
+my_matrix <- makeCacheMatrix(matrix( 4:7, 2, 2))
+my_matrix$get()
+my_matrix$getInv()
+cacheSolve(my_matrix)
+my_matrix$getInv()
+
